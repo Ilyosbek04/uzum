@@ -67,3 +67,57 @@ body{
     border-radius: 30%;
     background: url(./uzum.png) no-repeat center/cover; 
 }    
+.katalog{
+    width: 140px;
+    height: 45px;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:500;
+    display: flex;
+    gap: 10px;
+    padding: 12px 25px;
+    color: rgb(134, 4, 255);
+    background: rgb(235, 234, 234);
+    border-radius: 6px;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.katalog:hover{
+    background: rgb(210, 209, 209);
+}
+.search{
+    width: 450px;
+    height: 45px;
+    display: flex;
+    margin-left: 20px;
+}
+.search input{
+    width: 85%; 
+    height: 100%;
+    border-radius: 6px 0 0 6px;
+    border: 1px solid rgb(137, 136, 136);
+    font-size: 15px;
+    font-family: monospace;
+    padding: 0 0 0 20px;
+    text-transform: capitalize;
+    
+}
+.search input::placeholder{
+    font-size: 15px;
+    font-family: monospace;
+}
+.search_icon{
+    width: 15%;
+    height: 100%;
+    border: 1px solid rgb(137, 136, 136);
+    border-radius: 0 6px 6px 0;
+    background: rgb(225, 225, 225);
+    padding: 10px 25px;
+    font-size:18px;
+    transition: .3s;
+}
+.search_icon:hover{
+  background: rgb(210, 209, 209);
+}
